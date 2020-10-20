@@ -1,0 +1,62 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+background-color:rgb(32,19,48);
+
+}
+.navbar{
+	background-color:brown;
+}
+
+#bg-img{
+	background:url('images/bg.jpg');
+}
+
+/*setting the media icons */
+#About{
+margin-top:50px;
+
+}
+#About .fa{
+	color:white;
+}
+
+/*increasing the height of list items*/
+
+      /*for college*/
+.college{
+	height:70px;
+}
+.field{
+	height:70px;
+}
+.Percentage{
+	height:65px;
+}
+.Passed{
+	height:65px;
+}
+     /*for schools*/
+
+.School{
+	height:70px;
+}
+.fieldS{
+	height:70px;
+}
+.PercentageS{
+	height:65px;
+}
+.PassedS{
+	height:63px;
+}
+
+.btn{
+	text-decoration:none;
+}
+.edu{
+	background-color: #212529
+}
