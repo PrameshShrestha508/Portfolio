@@ -14,15 +14,18 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar">
-   <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
-  <a class="navbar-brand" href="#">PRAMESH</a>
+   <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  
+  
+
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto ">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#About">About me <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#About">About me</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#Educational">Educational history</a>
@@ -45,79 +48,81 @@
 
 
 <!-- About me -->
-<div id="About">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="AboutData">
-          <div class="card bg-white">
-             <h3 class="text-center text-capitalize"><I>A little about me</I></h3>
-            <div class="card title my-2">
 
-              <div class="media">
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
 
-                <img src="images/me.jpg" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
-                <div class="media-body">
-                  <h3 class="display-4 ml-5">Pramesh Bandhu Shrestha</h3>
-                  <p class="text-muted ml-5">Web Developer</p>
-
-                  <div class="container">
- <!-- <table class="table table-responsive-lg table-responsive-sm">
-  <tbody>
-    <tr>
-      <td>Age</td>
-      <td>:</td>
-      <td>22years old</td>
-    </tr>
-    <tr>
-      
-      <td>Email</td>
-      <td>:</td>
-      <td>prameshshrestha455@gmail.com</td>
-    </tr>
-    <tr>
-      
-      <td>Address</td>
-      <td>:</td>
-      <td>suddhodhana-4,rupandehi</td>
-    </tr>
-  </tbody>
-</table> -->
-<p class="ml-4">Name:Pramesh Bandhu Shrestha</p>
-<p class="ml-4">Age:22 years old</p>
-<p class="ml-4">Email:prameshshrestha455@gmail.com
-                  </div>
-
+                <div class="col-md-6 mt-5">
+                    <h1>HI,I'm Pramesh Shrestha.</h1>
+                    <div class="page-scroll">
+                        <p class="job-title">Full Stack Developer</p>
+                        <a href="#contact" class="btn btn-fill ">Hire me</a>
+                        <!-- <div class="clearfix visible-xxs"></div> -->
+                        <a href="#Projects" class="btn btn-border">Explore more</a>
+                    </div>
                 </div>
-              </div>
+            
+                <div class="col-md-6 text-right mt-5">
+                    <img src="images/me.jpg" alt="" width="100%">
+                </div>
+
             </div>
-          </div>
-                <div class="card-footer bg-danger ">
-                  <a href=""><i class="fa fa-facebook fa-2x mx-3"></i></a>
-                  <a href=""><i class="fa fa-twitter fa-2x mx-3"></i></a>
-                  <a href=""><i class="fa fa-youtube fa-2x mx-3"></i></a>
-                  <a href=""><i class="fa fa-github fa-2x mx-3"></i></a>
-               </div>
-
         </div>
-      </div>
-    </div>
-  </div>
+    </div><!-- /.hero -->
 
-  </div>
+
+<main id="main" class="site-main">
+<section id="About" class="site-section section-about">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 mt-5 mb-5">
+                         <h1 class="text-center text-capitalize pt-5 text-dark">ABOUT</h1> 
+                             <hr class="w-25 mx-auto pt-5">
+                        <p>Hello! I'm Pramesh Bandhu Shrestha, a full stack developer, and a guy slighty obsessed for code quality. Also I'm a studying in Bachelor of computer science in Tribhuwan University. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                        <a href="file:///F:/Study%20materials/webtech%20study/Javscript2/Projects/My_poortfolio/port.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a> <!-- filebin.net bata rakne -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
 
   <!-- About me End -->
-
+<section id="service" class="site-section section-services overlay text-center">
+            <div class="container">
+               <h1 class="text-center text-capitalize pt-5 text-dark">At Your Services</h1> <!--pt=padding=top-->
+                    <hr class="w-25 mx-auto pt-5">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="service">     
+                            <h4>Front-end</h4>
+                            <p>As a Web developer, I have experience in HTML5 and CSS3 techniques working with Javascript and little Jquery and frameworks like bootstrap.</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <h4>Back-end</h4>
+                            <p>Utilising php Knowledge, I've written services supporting thousands of users, including REST APIs, e-learning applications and more.</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <h4>Consultancy</h4>
+                            <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
+                        </div><!-- /.service -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-services -->
 
 <!-- Educational history -->
   <div id="Educational">
-   <div class="container-fluid">
-    <h1 class="text-center text-capitalize pt-5 text-white">EDUCATIONAL HISTORY</h1> <!--pt=padding=top-->
+   <div class="container">
+    <h1 class="text-center text-capitalize pt-5 text-dark">EDUCATIONAL HISTORY</h1> <!--pt=padding=top-->
     <hr class="w-25 mx-auto pt-5">
 <div class="row ">
   <div class="col-lg-4">
-      <h2 class="text-capitalize pt-5 text-white">University</h2> 
-      <ul class="list-group list-group-flush edu">
+      <h2 class="text-capitalize pt-5 text-dark">University</h2> 
+      <ul class="list-group list-group-flush">
          <li class="list-group-item text-muted">University:Tribhuvan University</li>
         <li class="list-group-item text-muted">Field:Bachelor of Science</li>
         <li class="list-group-item text-muted">Faculty:Bachelor of Computer Science And Technology</li>
@@ -126,7 +131,7 @@
       </ul>
     </div>
     <div class="col-lg-4">
-      <h2 class="text-capitalize pt-5 text-white">College</h2> 
+      <h2 class="text-capitalize pt-5 text-dark">College</h2> 
       <ul class="list-group list-group-flush ">
          <li class="college list-group-item text-muted">College:Tilottama Higher Secondary School</li>
         <li class="field list-group-item text-muted">Field:Science(Math)</li>
@@ -136,12 +141,12 @@
       </ul>
     </div>
     <div class="col-lg-4">
-      <h2 class="text-capitalize pt-5 text-white">School</h2> 
+      <h2 class="text-capitalize pt-5 text-dark">School</h2> 
       <ul class="list-group list-group-flush">
          <li class="School list-group-item text-muted">School:Tilottama Higher Secondary School</li>
          <li class="fieldS list-group-item text-muted">Field:Computer & OPT.Math</li>
         <li class="PercentageS list-group-item text-muted">Percentage:90%(aggregrate)</li>
-        <li class="PassedS list-group-item text-muted ">Passed Year:2015</li>
+        <li class="PassedS list-group-item text-muted">Passed Year:2015</li>
       
       </ul>
     </div>
@@ -151,7 +156,7 @@
 
 <!-- Skills -->
  <div id="Skills">
-  <h1 class="text-center text-capitalize pt-5 text-white">SKILLS</h1> <!--pt=padding=top-->
+  <h1 class="text-center text-capitalize pt-5 text-dark">SKILLS</h1> <!--pt=padding=top-->
     <hr class="w-25 mx-auto pt-5">
    <div class="container bg-white mt-5">
     
@@ -185,7 +190,7 @@
 </div>
 <!-- Skills ends -->
 <div id="contact">
-  <h1 class="text-center text-capitalize pt-5 text-white">CONTACT US</h1>
+  <h1 class="text-center text-capitalize pt-5 text-dark">CONTACT US</h1>
     <hr class="w-25 mx-auto pt-5"> 
   <div class="container bg-white mt-5">
     
@@ -282,30 +287,30 @@
 <!-- My projects -->
 <div id="Projects">
    <div class="container-fluid">
-    <h1 class="text-center text-capitalize pt-5 text-white">MY WORK</h1> 
-    <h3 class="text-center text-capitalize pt-5 text-white">I have worked on dozens of projects so I have picked only the latest for you</h3> <!--pt=padding=top-->
+    <h1 class="text-center text-capitalize pt-5 text-dark">MY WORK</h1> 
+    <h3 class="text-center text-capitalize pt-5 text-dark">I have worked on dozens of projects so I have picked only the latest for you</h3> <!--pt=padding=top-->
     <hr class="w-25 mx-auto pt-5">
     <div class="row">
 
      <div class="col-lg-4">
-      <h3 class="text-white text-center">Truth and Dare </h3>
-        <img src="images/truthdare.png" height="400px" width="400px" alt="">
-        <p class="text-white">This is simple example of truth and dare project</p>
-       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/truth_and_dare/T&d.html" target="_blank" class="text-white btn">Live Preview</a></button>
+      <h3 class="text-dark text-center">Truth and Dare </h3>
+        <img src="images/truthdare.png" height="400px" width="100%" alt="">
+        <p class="text-dark">This is simple example of truth and dare project</p>
+       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/truth_and_dare/T&d.html" target="_blank" class="text-dark btn">Live Preview</a></button>
       </div>
 
       <div class="col-lg-4">
-        <h3 class="text-white text-center">Loan Calculator </h3>
-        <img src="images/loan.png" height="400px" width="400px" alt="">
-        <p class="text-white">This is simple projects to find loan</p>
-       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/loan-calculator/loan.html" target="_blank"  class="text-white btn">Live Preview</a></button>
+        <h3 class="text-dark text-center">Loan Calculator </h3>
+        <img src="images/loan.png" height="400px" width="100%" alt="">
+        <p class="text-dark">This is simple projects to find loan</p>
+       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/loan-calculator/loan.html" target="_blank"  class="text-dark btn">Live Preview</a></button>
       </div>
 
      <div class="col-lg-4">
-      <h3 class="text-white text-center">Digital Clock </h3>
-        <img src="images/clock.png" height="400px" width="400px" alt="">
-        <p class="text-white">This is simple project of digital clock</p>
-       <button class="btn btn-danger"> <a href="https://prameshshrestha508.github.io/digital_clock/clock.html" target="_blank" class="text-white btn">Live Preview</a></button>
+      <h3 class="text-dark text-center">Digital Clock </h3>
+        <img src="images/clock.png" height="400px" width="100%" alt="">
+        <p class="text-dark">This is simple project of digital clock</p>
+       <button class="btn btn-danger"> <a href="https://prameshshrestha508.github.io/digital_clock/clock.html" target="_blank" class="text-dark btn">Live Preview</a></button>
       </div>
 
 </div>
@@ -313,32 +318,32 @@
  <div class="row mt-5 mb-5">
 
      <div class="col-lg-4">
-      <h3 class="text-white text-center">Quote Display </h3>
-        <img src="images/quote.png" height="400px" width="400px" alt="">
-        <p class="text-white">This is simple projects to display quotes of your choice</p>
+      <h3 class="text-dark text-center">Quote Display </h3>
+        <img src="images/quote.png" height="400px" width="100%" alt="">
+        <p class="text-dark">This is simple projects to display quotes of your choice</p>
        <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/quote_display/quote.html
-        " target="_blank"  class="text-white btn">Live Preview</a></button>
+        " target="_blank"  class="text-dark btn">Live Preview</a></button>
       </div>
 
       <div class="col-lg-4">
-        <h3 class="text-white text-center">Currency Converter </h3>
-        <img src="images/currency.png" height="400px" width="400px" alt="">
-        <p class="text-white">This is simple projects to convert curriences of different country</p>
-       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/currency_converter/currency.html" target="_blank"  class="text-white btn">Live Preview</a></button>
+        <h3 class="text-dark text-center">Currency Converter </h3>
+        <img src="images/currency.png" height="400px" width="100%" alt="">
+        <p class="text-dark">This is simple projects to convert curriences of different country</p>
+       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/currency_converter/currency.html" target="_blank"  class="text-dark btn">Live Preview</a></button>
       </div>
 
      <div class="col-lg-4">
       <h3 class="text-white text-center">Zodiac </h3>
-        <img src="images/zodiac.png" height="400px" width="400px" alt="">
-        <p class="text-white">This is simple project to find zodiac</p>
-       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/zodiac/zodiac.html"  target="_blank" class="text-white btn">Live Preview</a></button>
+        <img src="images/zodiac.png" height="400px" width="100%" alt="">
+        <p class="text-dark">This is simple project to find zodiac</p>
+       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/zodiac/zodiac.html"  target="_blank" class="text-dark btn">Live Preview</a></button>
       </div>
 
 </div>
 </div>
 <!-- My projects ends here -->
-
-<footer class="bg-dark text-white ">
+   </main>
+<footer class="bg-dark text-dark ">
 <p class="text-center">© 2020 Copyright:
           <a href="https://mdbootstrap.com/">
             <strong class="links"> prameshshrestha455@gmail.com</strong>
