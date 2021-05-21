@@ -32,7 +32,15 @@ nav li a{
 
 }
 
-
+.name{
+    font-family: 'Pattaya', sans-serif;
+    font-size:5em;
+}
+.job-title{
+    font-size:1em;
+    color:red;
+    font-weight:bold ;
+}
 
 .site-main {
     position: relative;
@@ -51,7 +59,7 @@ margin-top:50px;
 .btn{
     min-width: 145px;
     line-height: 50px;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -61,7 +69,7 @@ margin-top:50px;
 
 .btn-fill{
     color:#fff;
-    background-color: #212121;
+    background-color: #ec5b53;
 }
 
 .btn-border{
@@ -69,17 +77,40 @@ margin-top:50px;
     color: #212121;
     border: 1px solid #212121; 
 }
+.btn-border:hover{
+    background-color: #ec5b53;
+    color:#fff;
+}
 
 .btn-fill:hover,
 .btn-fill:focus {
     color: #fff;
 }
 
+.service{
+height:250px;
+border:2px solid black;
+
+}
+.icon{
+    margin-left:1em;
+    margin-right:1em;
+}
+.service h4{
+    text-align:center;
+    margin-top:5px;
+}
+.service:hover{
+    background-color: #fd7e14;
+    transition-delay: 0.3s;
+}
 .btn:hover,
 .btn:focus {
     box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
 }
-
+.single-services{
+    margin-top:20px;
+}
 /*increasing the height of list items*/
 
       /*for college*/
