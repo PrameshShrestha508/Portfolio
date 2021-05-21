@@ -7,9 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="port.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
     <title>Portfolio</title>
   </head>
 
@@ -54,9 +56,16 @@
             <div class="row">
 
                 <div class="col-md-6 mt-5">
-                    <h1>HI,I'm Pramesh Shrestha.</h1>
+                    <h1 class="name">HI,I'm Pramesh Shrestha.</h1>
                     <div class="page-scroll">
-                        <p class="job-title">Full Stack Developer</p>
+                        <p class="job-title">Creative designer & Full Stack Developer</p>
+                        <div class="footer-social f-right">
+                          <b>Stay Connected:</b><br><br>
+                          <a href="#"><i class="icon fab fa-twitter fa-2x"></i></a>
+                          <a href="#"><i class="icon fab fa-facebook-f fa-2x"></i></a>
+                          <a href="#"><i class="icon fas fa-globe fa-2x"></i></a>
+                          <a href="#"><i class="icon fab fa-instagram fa-2x"></i></a>
+                      </div><br>
                         <a href="#contact" class="btn btn-fill ">Hire me</a>
                         <!-- <div class="clearfix visible-xxs"></div> -->
                         <a href="#Projects" class="btn btn-border">Explore more</a>
@@ -93,21 +102,36 @@
                     <hr class="w-25 mx-auto pt-5">
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="service">     
-                            <h4>Front-end</h4>
+                        <div class="service"> 
+                          <div class="card-body info-color text-center">
+                            <i class="fab fa-html5 html5-text fa-3x px-2"></i>
+                            <i class="fab fa-css3-alt css3-text fa-3x px-2"></i>
+                            <i class="fab fa-bootstrap bootstrap-text fa-3x px-2"></i>
+                          </div>    
+                            <h4><u>Front-end</u></h4>
                             <p>As a Web developer, I have experience in HTML5 and CSS3 techniques working with Javascript and little Jquery and frameworks like bootstrap.</p>
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
-                            <h4>Back-end</h4>
+                          <div class="card-body info-color text-center">
+                            <i class="fab fa-html5 html5-text fa-3x px-2"></i>
+                            <i class="fab fa-css3-alt css3-text fa-3x px-2"></i>
+                            <i class="fab fa-bootstrap bootstrap-text fa-3x px-2"></i>
+                           </div>
+                            <h4><u>Back-end</u></h4>
                             <p>Utilising php Knowledge, I've written services supporting thousands of users, including REST APIs, e-learning applications and more.</p>
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
-                            <h4>Consultancy</h4>
-                            <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
+                          <div class="card-body info-color text-center">
+                            <i class="fab fa-html5 html5-text fa-3x px-2"></i>
+                            <i class="fab fa-css3-alt css3-text fa-3x px-2"></i>
+                            <i class="fab fa-bootstrap bootstrap-text fa-3x px-2"></i>
+                          </div>
+                            <h4><u>Database</u></h4>
+                            <p>As well as providing development services, I can also help in database services and frameworks design.</p>
                         </div><!-- /.service -->
                     </div>
                 </div>
@@ -290,58 +314,196 @@
     <h1 class="text-center text-capitalize pt-5 text-dark">MY WORK</h1> 
     <h3 class="text-center text-capitalize pt-5 text-dark">I have worked on dozens of projects so I have picked only the latest for you</h3> <!--pt=padding=top-->
     <hr class="w-25 mx-auto pt-5">
-    <div class="row">
-
-     <div class="col-lg-4">
-      <h3 class="text-dark text-center">Truth and Dare </h3>
-        <img src="images/truthdare.png" height="400px" width="100%" alt="">
-        <p class="text-dark">This is simple example of truth and dare project</p>
-       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/truth_and_dare/T&d.html" target="_blank" class="text-dark btn">Live Preview</a></button>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false"> All</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Html/css Templete</a>
+          <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Javascript</a>
       </div>
+    </nav>
 
-      <div class="col-lg-4">
-        <h3 class="text-dark text-center">Loan Calculator </h3>
-        <img src="images/loan.png" height="400px" width="100%" alt="">
-        <p class="text-dark">This is simple projects to find loan</p>
-       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/loan-calculator/loan.html" target="_blank"  class="text-dark btn">Live Preview</a></button>
-      </div>
-
-     <div class="col-lg-4">
-      <h3 class="text-dark text-center">Digital Clock </h3>
-        <img src="images/clock.png" height="400px" width="100%" alt="">
-        <p class="text-dark">This is simple project of digital clock</p>
-       <button class="btn btn-danger"> <a href="https://prameshshrestha508.github.io/digital_clock/clock.html" target="_blank" class="text-dark btn">Live Preview</a></button>
-      </div>
-
-</div>
-
- <div class="row mt-5 mb-5">
-
-     <div class="col-lg-4">
-      <h3 class="text-dark text-center">Quote Display </h3>
-        <img src="images/quote.png" height="400px" width="100%" alt="">
-        <p class="text-dark">This is simple projects to display quotes of your choice</p>
-       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/quote_display/quote.html
-        " target="_blank"  class="text-dark btn">Live Preview</a></button>
-      </div>
-
-      <div class="col-lg-4">
-        <h3 class="text-dark text-center">Currency Converter </h3>
-        <img src="images/currency.png" height="400px" width="100%" alt="">
-        <p class="text-dark">This is simple projects to convert curriences of different country</p>
-       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/currency_converter/currency.html" target="_blank"  class="text-dark btn">Live Preview</a></button>
-      </div>
-
-     <div class="col-lg-4">
-      <h3 class="text-white text-center">Zodiac </h3>
-        <img src="images/zodiac.png" height="400px" width="100%" alt="">
-        <p class="text-dark">This is simple project to find zodiac</p>
-       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/zodiac/zodiac.html"  target="_blank" class="text-dark btn">Live Preview</a></button>
-      </div>
-
-</div>
-</div>
 <!-- My projects ends here -->
+<div class="row">
+  <div class="col-12">
+      <!-- Nav Card -->
+      <div class="tab-content active" id="nav-tabContent">
+          <!-- card ONE -->
+          <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">           
+              <div class="services-caption">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <!-- Single -->
+                      <div class="single-services mb-30">
+                        <div class="single-services mb-30">
+                          <img src="images/coffee.png" height="400px" width="100%" alt="">
+                          <p class="text-dark">This is simple templete  of coffee times</p>
+                          <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/coffee/coffee.html
+                          " target="_blank"  class="text-dark btn">Live Preview</a></button>
+                        </div>
+                      </div>
+                  </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                          <div class="row">
+                              <div class="col-lg-12">
+                                  <!-- Single -->
+                                  <div class="single-services mb-30">
+                                    <img src="images/loan.png" height="400px" width="100%" alt="">
+                                    <p class="text-dark">This is simple projects to find loan</p>
+                                   <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/loan-calculator/loan.html" target="_blank"  class="text-dark btn">Live Preview</a></button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <!-- Single -->
+                        <div class="single-services mb-30">
+                          <div class="single-services mb-30">
+                            <img src="images/wedding.png" height="400px" width="100%" alt="">
+                            <p class="text-dark">This is simple templete of wedding desgin</p>
+                            <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/wedding/wedding.html
+                            " target="_blank"  class="text-dark btn">Live Preview</a></button>
+                          </div>
+                        </div>
+                    </div>
+
+
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                          <!-- Single -->
+                          <div class="single-services mb-30">
+                            <img src="images/currency.png" height="400px" width="100%" alt="">
+                            <p class="text-dark"> Convert curriences of different country</p>
+                          <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/currency_converter/currency.html" target="_blank"  class="text-dark btn">Live Preview</a></button>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <!-- Single -->
+                        <div class="single-services mb-30">
+                          <div class="single-services mb-30">
+                            <img src="images/culinary.png" height="400px" width="100%" alt="">
+                            <p class="text-dark">This is simple templete  of  culinary </p>
+                            <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/culinary/curlinary.html
+                            " target="_blank"  class="text-dark btn">Live Preview</a></button>
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <!-- Single -->
+                      <div class="single-services mb-30">
+                        <img src="images/zodiac.png" height="400px" width="100%" alt="">
+                        <p class="text-dark">This is simple project to find zodiac</p>
+                       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/zodiac/zodiac.html"  target="_blank" class="text-dark btn">Live Preview</a></button>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <!-- Card TWO -->
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="services-caption">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <!-- Single -->
+                      <div class="single-services mb-30">
+                        <div class="single-services mb-30">
+                          <img src="images/coffee.png" height="400px" width="100%" alt="">
+                          <p class="text-dark">This is simple templete  of coffee times</p>
+                          <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/coffee/coffee.html
+                          " target="_blank"  class="text-dark btn">Live Preview</a></button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <!-- Single -->
+                    <div class="single-services mb-30">
+                      <div class="single-services mb-30">
+                        <img src="images/culinary.png" height="400px" width="100%" alt="">
+                        <p class="text-dark">This is simple templete  of  culinary </p>
+                        <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/culinary/curlinary.html
+                        " target="_blank"  class="text-dark btn">Live Preview</a></button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <!-- Single -->
+                  <div class="single-services mb-30">
+                    <div class="single-services mb-30">
+                      <img src="images/food.png" height="400px" width="100%" alt="">
+                      <p class="text-dark">This is simple templete  of  Food</p>
+                      <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/hotel-site/hotel.html
+                      " target="_blank"  class="text-dark btn">Live Preview</a></button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <!-- Single -->
+                <div class="single-services mb-30">
+                  <div class="single-services mb-30">
+                    <img src="images/wedding.png" height="400px" width="100%" alt="">
+                    <p class="text-dark">This is simple templete of wedding desgin</p>
+                    <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/wedding/wedding.html
+                    " target="_blank"  class="text-dark btn">Live Preview</a></button>
+                  </div>
+                </div>
+            </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Card THREE -->
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <div class="services-caption">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                      <!-- Single -->
+                      <div class="single-services mb-30">
+                        <img src="images/truthdare.png" height="400px" width="100%" alt="">
+                        <p class="text-dark">This is simple example of truth and dare project</p>
+                       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/truth_and_dare/T&d.html" target="_blank" class="text-dark btn">Live Preview</a></button>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <!-- Single -->
+                              <div class="single-services mb-30">
+                                <img src="images/loan.png" height="400px" width="100%" alt="">
+                                <p class="text-dark">This is simple projects to find loan</p>
+                               <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/loan-calculator/loan.html" target="_blank"  class="text-dark btn">Live Preview</a></button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                      <!-- Single -->
+                      <div class="single-services mb-30">
+                        <img src="images/zodiac.png" height="400px" width="100%" alt="">
+                        <p class="text-dark">This is simple project to find zodiac</p>
+                       <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/zodiac/zodiac.html"  target="_blank" class="text-dark btn">Live Preview</a></button>
+                      </div>
+                  </div>
+
+
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                      <!-- Single -->
+                      <div class="single-services mb-30">
+                        <img src="images/currency.png" height="400px" width="100%" alt="">
+                        <p class="text-dark"> Convert curriences of different country</p>
+                      <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/currency_converter/currency.html" target="_blank"  class="text-dark btn">Live Preview</a></button>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                      <!-- Single -->
+                      <div class="single-services mb-30">
+                        <img src="images/quote.png" height="400px" width="100%" alt="">
+                        <p class="text-dark">This is simple projects to display quotes of your choice</p>
+                        <button class="btn btn-danger "> <a href="https://prameshshrestha508.github.io/quote_display/quote.html
+                        " target="_blank"  class="text-dark btn">Live Preview</a></button>
+                      </div>
+                  </div>
+                </div>
+            </div>
    </main>
 <footer class="bg-dark text-dark ">
 <p class="text-center">© 2020 Copyright:
